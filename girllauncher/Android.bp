@@ -1,0 +1,17 @@
+android_app {
+    name: "KidGirlsLauncher",
+    srcs: ["KidGirlsLauncher/src/**/*.kt"],
+    resource_dirs: ["KidGirlsLauncher/res"],
+    manifest: "KidGirlsLauncher/AndroidManifest.xml",
+    platform_apis: true,
+    privileged: true,
+    installable: true,
+
+   static_libs: [
+        "androidx.appcompat_appcompat",  
+        "androidx.core_core", 
+        "com.google.android.material_material"          
+    ],
+
+}
+
