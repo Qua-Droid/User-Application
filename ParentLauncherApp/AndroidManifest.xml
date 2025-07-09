@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parentlauncher">
+
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="android.permission.MANAGE_ACTIVITY_TASKS" />
+    <uses-permission android:name="android.permission.START_TASKS_FROM_RECENTS" />
+    <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission android:name="android.permission.ACTIVITY_EMBEDDING" />
+
+    <!-- Custom permission for reading app restrictions -->
+    <permission
+        android:name="com.example.parentlauncher.READ_APP_RESTRICTIONS"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:label="Parent Launcher"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:theme="@style/Theme.ParentLauncher">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RestrictionSettingsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".CreateChildUserActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".UserListActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".UserSwitchReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_FOREGROUND" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Content Provider for app restrictions -->
+        <provider
+            android:name=".AppRestrictionProvider"
+            android:authorities="com.example.parentlauncher.provider"
+            android:exported="true"
+            android:readPermission="com.patrick.parentlauncher.READ_APP_RESTRICTIONS" />
+
+    </application>
+</manifest>
+
+

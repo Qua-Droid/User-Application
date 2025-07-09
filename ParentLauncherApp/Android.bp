@@ -1,0 +1,25 @@
+android_app {
+    name: "ParentLauncherApp",
+    srcs: [
+        "src/**/*.java",
+    ],
+    resource_dirs: ["res"],
+    manifest: "AndroidManifest.xml",
+
+    platform_apis: true,
+    privileged: true,
+    certificate: "platform",
+
+    optimize: {
+        enabled: false,
+    },
+
+    static_libs: [
+        "androidx.appcompat_appcompat",
+        "androidx.core_core",
+        "androidx.recyclerview_recyclerview",
+        "androidx.cardview_cardview",
+    ],
+}
+
+
