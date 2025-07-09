@@ -1,0 +1,181 @@
+android_app_import {
+    name: "cartoontube21_apkpure",
+    apk: "cartoontube21_apkpure.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "cartoontube21_apkpure.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+android_app_import {
+    name: "drawcartoons202295",
+    apk: "draw-cartoons-2-0-22-95.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "draw-cartoons-2-0-22-95.apk",
+    dex_preopt: {
+        enabled: false,
+    },
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+android_app_import {
+    name: "tictactoeonlinexogame1265",
+    apk: "tic-tac-toe-online-xo-game-1-2-6-5.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "tic-tac-toe-online-xo-game-1-2-6-5.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+android_app_import {
+    name: "uptodowncoma3appskidstube",
+    apk: "uptodown-com.a3apps.kidstube.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "uptodown-com.a3apps.kidstube.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+android_app_import {
+    name: "uptodowncomintellijoyandroidreadingfree",
+    apk: "uptodown-com.intellijoy.android.reading.free.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "uptodown-com.intellijoy.android.reading.free.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+android_app_import {
+    name: "kidsdrawingplay33",
+    apk: "kids-drawing-play-3-3.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "kids-drawing-play-3-3.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+android_app_import {
+    name: "uptodownballblastbubblepopshooterpermainanbolabuble",
+    apk: "uptodown-ball.blast.bubble.pop.shooter.permainan.bola.buble.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "uptodown-ball.blast.bubble.pop.shooter.permainan.bola.buble.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+
+android_app_import {
+    name: "comansanghadrdriving",
+    apk: "com.ansangha.drdriving.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "com.ansangha.drdriving.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+
+android_app_import {
+    name: "comblueberrygamesgamel",
+    apk: "com.blueberrygames.gamel.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "com.blueberrygames.gamel.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+
+android_app_import {
+    name: "comearlystartandroidmonkeyjuniorstory",
+    apk: "com.earlystart.android.monkeyjunior.story.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "com.earlystart.android.monkeyjunior.story.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+
+
+
+android_app_import {
+    name: "comrvappstudiosbabytoddlerkidsgameslearningactivity",
+    apk: "com.rvappstudios.baby.toddler.kids.games.learning.activity.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "com.rvappstudios.baby.toddler.kids.games.learning.activity.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+
+android_app_import {
+    name: "comrvappstudiosshapescolorstoddler",
+    apk: "com.rvappstudios.shapes.colors.toddler.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "com.rvappstudios.shapes.colors.toddler.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
+
+
+android_app_import {
+    name: "comtoddlercoloring",
+    apk: "com.toddler.coloring.apk",
+    certificate: "platform",
+    privileged: false,
+    filename: "com.toddler.coloring.apk",
+    optional_uses_libs: [
+        "org.apache.http.legacy",
+        "android.ext.adservices",
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+}
