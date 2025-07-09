@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Custom app theme with no Action Bar -->
+    <style name="Theme.ParentLauncher" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here if needed -->
+    </style>
+    <!-- NEW: fullscreen, no system bars -->
+    <style name="Theme.KidFullscreen" parent="Theme.ParentLauncher">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>
+
